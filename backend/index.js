@@ -65,7 +65,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://chatty-gu8o.onrender.com",
     credentials: true,
   })
 );
